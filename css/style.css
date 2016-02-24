@@ -1,18 +1,9 @@
-.jumbotron {
-  background-image: url("../img/group.jpg");
-  background-size: cover;
-}
-
 body {
-  background-color: lightblue;
+  background-image: url("../img/background.jpg");
 }
 
 #help-line {
   text-shadow: 2px 2px gold;
-}
-
-.jumbotron {
-  height: 300px;
 }
 
 #rover {
@@ -21,4 +12,29 @@ body {
   left: auto;
   height: 100px;
   width: 100px;
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.team {
+  width: 100%;
+}
+
+.button {
+  display: block;
+  float: none;
+  margin: 0 auto;
+}
+
+.full-width {
+  width: 100%;
+  height: 100%;
+}
+
+.row {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

@@ -2,38 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
+  
+  <meta name="google-site-verification" content="3A-tQBwFN3FMZTmpubEFQ5M3CfesUya4l4tTVP2zsMA" />
+  
   <link rel="shortcut icon" type="image/png" href="img/calstatelalogo_badge_gold2.jpg"/>
-
+  
   <title>Cal State L.A. Swarmathon</title>
-
+  
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-
+  
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+  
   <!-- Bootstrap JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+  
   <!-- custom css -->
   <link rel="stylesheet" href="css/style.css">
-
+  
   <!-- custom js -->
   <script src="js/scripts.js" charset="utf-8"></script>
-
+  
 </head>
 <body>
-
+  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=312629462103303";
+    // js.src="https://connect.facebook.net/en_US/all.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  
   <div class="container">
-    <h1 id="help-line">Help send Cal State LA students to Florida!</h1>
-    <div class="jumbotron">
-
+    
+    <div class="row">
+      <div class="col-md-3"><img class="logo" src="img/cal_state_la_shield.png"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"><img class="logo" src="img/nasa_logo.png"></div>    
     </div>
-    <p><a class="btn btn-primary btn-lg" href="https://www.gofundme.com/" role="button">Fund us!</a></p>
+    
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8"><img class="team" src="img/team.png"></div>
+      <div class="col-md-2"></div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-2"><div class="btn btn-info button">About</div></div>
+      <div class="col-md-2"><div class="btn btn-info button">Donate</div></div>
+      <div class="col-md-2"><div class="btn btn-info button">Contact</div></div>   
+      <div class="col-md-2"><div class="btn btn-info button">Images</div></div>
+      <div class="col-md-2"></div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <div class="fb-page full-width" data-href="https://www.facebook.com/CsulaSwarm/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/CsulaSwarm/"><a href="https://www.facebook.com/CsulaSwarm/">Cal State L.A. Swarm Robotics</a></blockquote></div></div>
+      </div>
+      <div class="col-md-6">
+        <a class="twitter-timeline" href="https://twitter.com/CsulaSwarm" data-widget-id="702195691225911297">Tweets by @CsulaSwarm</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+    </div>
   </div>
-
+  
   <img src="img/rover.png" alt="rover" id="rover">
-
+  
 </body>
 </html>
