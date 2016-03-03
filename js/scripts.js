@@ -1,5 +1,5 @@
 $(function() {
-
+  
   // $("body").keydown(function(event) {
   //
   //   console.log(event.which);
@@ -13,9 +13,15 @@ $(function() {
   //     $("#rover").css("left", +5);
   //   }
   // });
-
+  
   $(document).mousemove(function(e){
-    $("#rover").stop().animate({left:e.pageX, top:e.pageY});
-});
+    $("#rover").stop().animate({left:e.pageX + 10, top:e.pageY + 10});
+  });
+  
+  $("#donate").ready( function() {
 
+  $("#donate").contents().scrollTop( $("#donate").contents().scrollTop() + 100 );
+
+});
+  
 });
