@@ -5,6 +5,8 @@
 
 body {
   background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 #help-line {
@@ -32,6 +34,20 @@ body {
   display: block;
   float: none;
   margin: 6px auto;
+  background-color: rgba(62, 48, 34, 0.62);
+  border-color: #411313;
+  color: white;
+}
+
+.button:hover {
+  color: white;
+  background-color: #411313;
+  border-color: rgba(62, 48, 34, 0.62);
+}
+
+.btn.active, .btn:active, .button:active {
+  background-color: #e3ba09;
+  border-color: #411313;
 }
 
 .full-width {
@@ -58,4 +74,22 @@ body {
 .row {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.donate-step {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.indent {
+  text-indent: 50px;
+}
+
+.cap-first::first-letter {
+  font-size: 130%;
+}
+
+.donate-instruction {
+  color: white;
 }
