@@ -26,6 +26,10 @@ body {
   max-height: 100px;
 }
 
+.logo:active {
+  
+}
+
 .team {
   width: 100%;
 }
@@ -92,4 +96,15 @@ body {
 
 .donate-instruction {
   color: white;
+}
+
+.donate-panel {
+  width: auto;
+  max-height: 50px;
+  overflow: hidden;
+  transition: max-height 2s;
+}
+
+.donate-panel:hover { 
+  max-height: 1000px;
 }
